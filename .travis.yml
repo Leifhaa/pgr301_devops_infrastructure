@@ -13,11 +13,11 @@ before install:
         #Install google cloud
         - source "$HOME/google-cloud-sdk/path.bash.inc"
         #Authenticate in google cloud
-        - gcloud auth active-service-account --key-file=terraform.json
+        - gcloud auth active-service-account --key-file=terraform_keyfile.json
         #Set active project
         - gcloud config set project "${GCP_PROJECT_ID}"
         #Set google_application_credentials to the decrypted file
-        - export GOOGLE_APPLICATION_CREDENTIALS=./terraform.json
+        - export GOOGLE_APPLICATION_CREDENTIALS=./terraform_keyfile.json
         #Download terraform
         - wget https://release.hashicorp.com/terraform/"$tf_version"
         #Unzip it
