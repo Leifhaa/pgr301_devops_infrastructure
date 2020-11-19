@@ -23,9 +23,13 @@ resource "google_cloud_run_service" "taskapp" {
       }
     }
   }
+  traffic {
+    percent = 100
+    latest_revision = true
+  }
 }
 
-data "google_iam_policy" "taskapp_noauth" {
+data "google_iam_policy" "noauth" {
   binding{
     #Role - which roles has access, run - specified being cloud run service, invoker - Priveledged to access via URL
     role = "roles/run.invoker"
@@ -42,7 +46,7 @@ resource "google_cloud_run_service_iam_policy" "taskapp_noauth"{
   project = google_cloud_run_service.taskapp.project
   service = google_cloud_run_service.taskapp.name
 
-  policy_data = data.google_iam_policy.taskapp_noauth.policy_data
+  policy_data = data.google_iam_policy.noauth.policy_data
 }
 
 
