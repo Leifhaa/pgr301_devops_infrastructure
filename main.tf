@@ -3,6 +3,7 @@
 resource "google_cloud_run_service" "taskapp" {
   name     = "taskapp"
   location = "europe-north1"
+  project = var.project_id
 
   template {
     spec {
