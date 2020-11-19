@@ -1,0 +1,36 @@
+env:
+  global:
+    - GPC_PROJECT_ID=exam-295817
+    - tf_version=0.12.19
+    - CLOUDSDK_CORE_DISABLE_PROMPTS=1
+branches:
+  only:
+    - master
+before install:
+        - openssl aes-256-cbc -K $encrypted_98d237b7dbf4_key -iv $encrypted_98d237b7dbf4_iv -in terraform.json.enc -out terraform.json -d
+         #Download google cloud sdk and install it
+        - curl https://sdk.cloud.google.com | bash > /dev/null
+        #Install google cloud
+        - source "$HOME/google-cloud-sdk/path.bash.inc"
+        #Authenticate in google cloud
+        - gcloud auth active-service-account --key-file=terraform.json
+        #Set active project
+        - gcloud config set project "${GCP_PROJECT_ID}"
+        #Set google_application_credentials to the decrypted file
+        - export GOOGLE_APPLICATION_CREDENTIALS=./terraform.json
+        #Download terraform
+        - wget https://release.hashicorp.com/terraform/"$tf_version"
+        #Unzip it
+        - unzip terraform_"$tf_version" linux_amd64.zip
+        #Move the file
+        - sudo mv terraform /usr/local/bin/
+        #Remove the zip file for good-practise cleanup
+        - rm terraform_"$tf_version"_linux_amd64.zip
+install: true
+script:
+  - |-
+    set -ex;
+    terraform init
+    terraform plan
+    terraform apply --auto-approve
+    terraform output
