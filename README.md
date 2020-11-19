@@ -8,6 +8,9 @@
 5. Enable cloud run
 6. We're good to go, but lacking a service accoaunt for terraform to create the infrastructure
 7. Create the service account with least possible priveledges required (which in this case is Artifact Registry Service Admin, Cloud Run Service Agent, )
+8. Add this service account as terraform_keyfile.json.enc
+9. Create .tf files for setting up the infrastructure.
+10. Setup .travis.yml for deploying the infrastructure.
 
 
 

@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_keyfile.json.enc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +79,8 @@
       <updated>1605781918415</updated>
       <workItem from="1605781919507" duration="3823000" />
       <workItem from="1605797785299" duration="739000" />
-      <workItem from="1605798550473" duration="3364000" />
+      <workItem from="1605798550473" duration="10795000" />
+      <workItem from="1605820036318" duration="2260000" />
     </task>
     <servers />
   </component>
@@ -84,5 +104,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2688" y="299" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605798534848" />
+    <state x="2586" y="253" width="587" height="534" key="find.popup" timestamp="1605810649748">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2586" y="253" width="587" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605810649748" />
   </component>
 </project>
