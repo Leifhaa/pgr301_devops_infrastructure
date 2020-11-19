@@ -9,5 +9,5 @@ variable "logz_url" {
 }
 
 variable "project_id" {
-  default = "terraform-292215"
+  default = "exam-295817"
 }
