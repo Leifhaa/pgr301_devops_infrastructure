@@ -21,9 +21,9 @@ before install:
         #Set google_application_credentials to the decrypted file
         - export GOOGLE_APPLICATION_CREDENTIALS=./terraform_keyfile.json
         #Download terraform
-        - wget https://release.hashicorp.com/terraform/"$tf_version"
+        - wget https://releases.hashicorp.com/terraform/"$tf_version"/terraform_"$tf_version"_linux_amd64.zip
         #Unzip it
-        - unzip terraform_"$tf_version" linux_amd64.zip
+        - unzip terraform_"$tf_version"_linux_amd64.zip
         #Move the file
         - sudo mv terraform /usr/local/bin/
         #Remove the zip file for good-practise cleanup
