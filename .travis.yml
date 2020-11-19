@@ -5,7 +5,7 @@ env:
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 branches:
   only:
-    - master
+    - main
 before install:
         - openssl aes-256-cbc -K $encrypted_61dc43fb09f9_key -iv $encrypted_61dc43fb09f9_iv -in terraform_keyfile.json.enc -out terraform_keyfile.json -d
          #Download google cloud sdk and install it
