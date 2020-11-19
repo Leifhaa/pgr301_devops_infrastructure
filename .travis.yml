@@ -5,7 +5,7 @@ env:
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 branches:
   only:
-    - master
+    - main
 before install:
         - openssl aes-256-cbc -K $encrypted_61dc43fb09f9_key -iv $encrypted_61dc43fb09f9_iv -in terraform_keyfile.json.enc -out terraform_keyfile.json -d
          #Download google cloud sdk and install it
@@ -13,11 +13,11 @@ before install:
         #Install google cloud
         - source "$HOME/google-cloud-sdk/path.bash.inc"
         #Authenticate in google cloud
-        - gcloud auth active-service-account --key-file=terraform.json
+        - gcloud auth active-service-account --key-file=terraform_keyfile.json
         #Set active project
         - gcloud config set project "${GCP_PROJECT_ID}"
         #Set google_application_credentials to the decrypted file
-        - export GOOGLE_APPLICATION_CREDENTIALS=./terraform.json
+        - export GOOGLE_APPLICATION_CREDENTIALS=./terraform_keyfile.json
         #Download terraform
         - wget https://release.hashicorp.com/terraform/"$tf_version"
         #Unzip it
