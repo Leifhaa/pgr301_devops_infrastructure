@@ -3,6 +3,9 @@ terraform {
     google = {
       source = "hashicorp/google"
     }
+    statuscake = {
+      source= "terraform-providers/statuscake"
+    }
   }
 }
 
@@ -28,5 +31,6 @@ provider "google" {
 
 provider "statuscake" {
   username = "Leifhaahotmailcom"
+  apikey = var.statuscake_key
   #API key will be set through the env variable: STATUSCAKE_APIKEY
 }
