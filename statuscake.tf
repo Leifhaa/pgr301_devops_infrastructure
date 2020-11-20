@@ -1,7 +1,4 @@
-provider "statuscake" {
-  username = "Leifhaahotmailcom"
-  #API key will be set through the env variable: STATUSCAKE_APIKEY
-}
+
 
 resource "statuscake_test" "taskapptest" {
   website_name = "Alive test"

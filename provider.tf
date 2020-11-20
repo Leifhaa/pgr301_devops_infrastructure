@@ -25,3 +25,8 @@ provider "google" {
   region  = "us-central1"
   zone    = "us-central1-c"
 }
+
+provider "statuscake" {
+  username = "Leifhaahotmailcom"
+  #API key will be set through the env variable: STATUSCAKE_APIKEY
+}
