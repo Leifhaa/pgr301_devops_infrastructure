@@ -1,7 +1,7 @@
 resource "statuscake_test" "taskapptest" {
   website_name = "Alive test"
   #Find the url by other resource
-  website_url = "https://foobaaarImnotalivelol.com"
+  website_url = google_cloud_run_service.taskapp.status[0].url
   test_type = "HTTP"
   #Time in seconds
   check_rate = 60
