@@ -8,6 +8,10 @@ variable "logz_url" {
   #Terraform.apply will fail if this is not set
 }
 
+variable "statuscake_key" {
+
+}
+
 variable "project_id" {
   default = "exam-295817"
 }
