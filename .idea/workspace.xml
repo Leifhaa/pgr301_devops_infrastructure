@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="Added aws">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aws.tf" beforeDir="false" afterPath="$PROJECT_DIR$/aws.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +60,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +76,8 @@
       <workItem from="1605966486416" duration="918000" />
       <workItem from="1614002637261" duration="61000" />
       <workItem from="1614092274770" duration="50000" />
-      <workItem from="1614166565637" duration="10185000" />
+      <workItem from="1614166565637" duration="11226000" />
+      <workItem from="1614185127473" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="Added aws">
       <created>1614171459744</created>
@@ -120,6 +109,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added aws" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1614193929467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1614193929467" />
     <state x="2688" y="299" key="FileChooserDialogImpl" timestamp="1614002696664">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -138,5 +131,9 @@
     </state>
     <state x="2586" y="253" width="668" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614177434055" />
     <state x="666" y="253" width="668" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605825765405" />
+    <state x="940" y="270" key="search.everywhere.popup" timestamp="1614186740318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="940" y="270" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614186740318" />
   </component>
 </project>
