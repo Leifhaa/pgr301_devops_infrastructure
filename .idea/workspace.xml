@@ -22,7 +22,6 @@
     <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="Added aws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1605966486416" duration="918000" />
       <workItem from="1614002637261" duration="61000" />
       <workItem from="1614092274770" duration="50000" />
-      <workItem from="1614166565637" duration="6637000" />
+      <workItem from="1614166565637" duration="7047000" />
     </task>
     <task id="LOCAL-00001" summary="Added aws">
       <created>1614171459744</created>
