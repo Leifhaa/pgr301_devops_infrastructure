@@ -24,12 +24,12 @@ variable "project_id" {
   default = "exam-295817"
 }
 
-variable "db_username" {
+variable "aws_db_username" {
   description = "The master DB username"
   type = string
 }
 
-variable "db_password" {
+variable "aws_db_password" {
   description = "Password for the master DB user"
   type = string
 }
