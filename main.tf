@@ -12,7 +12,7 @@ resource "google_cloud_run_service" "taskapp" {
         image = "gcr.io/exam-295817/helloworld:latest"
         env{
           #Set terraform variables from environment variables
-          #(We're making travis give the environment variable to terraform, so terraform can set it in google cloud run) 
+          #(We're making travis give the environment variable to terraform, so terraform can set it in google cloud run)
           name = "LOGZ_TOKEN"
           value = var.logz_token
         }
