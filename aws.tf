@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "b" {
-  bucket = "aws-lambda-bucket"
+resource "aws_s3_bucket" "bucket_for_lambda" {
+  bucket = "example"
   acl    = "private"
 
   tags = {
