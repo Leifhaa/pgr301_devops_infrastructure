@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aws.tf" afterDir="false" />
+    <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="Added aws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,8 +89,16 @@
       <workItem from="1605966486416" duration="918000" />
       <workItem from="1614002637261" duration="61000" />
       <workItem from="1614092274770" duration="50000" />
-      <workItem from="1614166565637" duration="4106000" />
+      <workItem from="1614166565637" duration="6637000" />
     </task>
+    <task id="LOCAL-00001" summary="Added aws">
+      <created>1614171459744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614171459744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,12 +116,24 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added aws" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added aws" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2688" y="299" key="FileChooserDialogImpl" timestamp="1614002696664">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2688" y="299" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614002696664" />
     <state x="768" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605966753344" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614171466320">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614171466320" />
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614171453362">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614171453362" />
     <state x="2586" y="253" width="599" height="534" key="find.popup" timestamp="1614170674498">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

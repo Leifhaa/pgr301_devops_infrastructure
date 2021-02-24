@@ -6,6 +6,10 @@ terraform {
     statuscake = {
       source= "terraform-providers/statuscake"
     }
+    aws = {
+      source="hashicorp/aws"
+      version = "~> 3.0"
+    }
   }
 }
 
