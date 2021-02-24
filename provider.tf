@@ -19,6 +19,11 @@ terraform {
 }
 
 
+provider "aws" {
+  profile = "default"
+  region = "us-east-1"
+}
+
 #A provider is used to configure the named provider. A provider is responsible for creating resources
 #multiple provider blocks can exist if Terraform configuration manages resources from different providers
 provider "google" {
