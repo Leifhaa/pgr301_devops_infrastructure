@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket_for_lambda" {
-  bucket = "example"
+  bucket = "aws-lambda-bucket-leifhaa"
   acl    = "private"
 
   tags = {
@@ -38,7 +38,7 @@ resource "aws_lambda_function" "aws-lambda-executor" {
   handler = "main.handler"
   runtime = "nodejs12.x"
 
-  s3_bucket = "aws-lambda-bucket"
+  s3_bucket = "aws-lambda-bucket-leifhaa"
   s3_key    = "v1.0.0/taskrunner.zip"
 
 }
