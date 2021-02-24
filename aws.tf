@@ -1,12 +1,11 @@
-resource "aws_dynamodb_table" "billing-table" {
-  hash_key = "UserId"
-  name = "Billing"
-  attribute {
-    name = "UserId"
-    type = "S"
-  }
-  attribute {
-    name = "Amount"
-    type = "N"
-  }
+resource "aws_db_instance" "taskDb" {
+  allocated_storage    = 10
+  engine               = "mysql"
+  engine_version       = "5.7"
+  instance_class       = "db.t3.micro"
+  name                 = "taskDb"
+  username             = var.db_username
+  password             = var.db_password
+  parameter_group_name = "default.mysql5.7"
+  skip_final_snapshot  = true
 }

@@ -13,5 +13,14 @@
 10. Setup .travis.yml for deploying the infrastructure.
 
 
+Neccesairy enviroment variables for building this project with terraform:
+LOGZ_TOKEN = Token for pushing logs to logz.io
+LOGZ_URL = URL for pushing logs to logz.io
+STATUSCAKE_APIKEY = The API key from StatusCake
+AWS_ACCESS_KEY_ID = AWS account ID for setup of AWS resoruces
+AWS_SECRET_ACCESS_KEY = AWS account access key for setting up AWS resources
+
+
+
 
 Todo: Create a new service account per project.

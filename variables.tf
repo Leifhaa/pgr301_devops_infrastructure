@@ -23,3 +23,13 @@ variable "project_id" {
   type = string
   default = "exam-295817"
 }
+
+variable "db_username" {
+  description = "The master DB username"
+  type = string
+}
+
+variable "db_password" {
+  description = "Password for the master DB user"
+  type = string
+}
