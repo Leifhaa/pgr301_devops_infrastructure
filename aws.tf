@@ -1,3 +1,13 @@
+resource "aws_s3_bucket" "b" {
+  bucket = "aws-lambda-bucket"
+  acl    = "private"
+
+  tags = {
+    Name        = "Bucket for storing aws lambda function"
+    Environment = "Dev"
+  }
+}
+
 resource "aws_iam_role" "iam_for_lambda" {
   name = "iam_for_lambda"
 
@@ -27,5 +37,8 @@ resource "aws_lambda_function" "aws-lambda-executor" {
   # exported in that file.
   handler = "main.handler"
   runtime = "nodejs12.x"
+
+  s3_bucket = "aws-lambda-bucket"
+  s3_key    = "v1.0.0/taskrunner.zip"
 
 }
