@@ -41,8 +41,7 @@ script:
     export TF_VAR_statuscake_key=$STATUSCAKE_APIKEY
     export TF_VAR_logz_token=$LOGZ_TOKEN
     export TF_VAR_logz_url=$LOGZ_URL
-    export TF_VAR_aws_db_username=$AWS_DB_USERNAME
-    export TF_VAR_aws_db_password=$AWS_DB_PASSWORD
+
     terraform init
     terraform plan
     terraform apply --auto-approve
