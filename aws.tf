@@ -29,7 +29,7 @@ resource "aws_lambda_function" "aws-lambda-executor" {
   runtime = "nodejs12.x"
 
   s3_bucket = "aws-lambda-bucket-leifhaa"
-  s3_key    = "v1.0.0/taskrunner.zip"
+  s3_key    = "${var.aws_lambda_version}/taskrunner.zip"
 
 }
 

@@ -23,3 +23,6 @@ variable "project_id" {
   type = string
   default = "exam-295817"
 }
+
+variable "aws_lambda_version" {
+}
