@@ -24,6 +24,9 @@ resource "google_cloud_run_service" "taskapp" {
           name = "INVOICE_URL"
           value = aws_api_gateway_deployment.example.invoke_url
         }
+        
+        #Experienced that default of 256 mb was too low for spring boot
+        memory = "512Mi"
       }
     }
   }
