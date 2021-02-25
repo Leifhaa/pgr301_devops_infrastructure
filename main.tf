@@ -20,6 +20,10 @@ resource "google_cloud_run_service" "taskapp" {
           name = "LOGZ_URL"
           value = var.logz_url
         }
+        env{
+          name = "INVOICE_URL"
+          value = aws_api_gateway_deployment.example.invoke_url
+        }
       }
     }
   }

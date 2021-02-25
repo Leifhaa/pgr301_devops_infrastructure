@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6d79222-c6fb-47bd-877f-39592172025e" name="Default Changelist" comment="Added aws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PG5100 Enterprise programmering" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,7 +77,7 @@
       <workItem from="1614092274770" duration="50000" />
       <workItem from="1614166565637" duration="11226000" />
       <workItem from="1614185127473" duration="8723000" />
-      <workItem from="1614252376758" duration="5905000" />
+      <workItem from="1614252376758" duration="7068000" />
     </task>
     <task id="LOCAL-00001" summary="Added aws">
       <created>1614171459744</created>
@@ -113,9 +113,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1614193929467" />
-    <state x="2688" y="299" key="FileChooserDialogImpl" timestamp="1614002696664">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="768" y="299" key="FileChooserDialogImpl" timestamp="1614259558499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="768" y="299" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614259558499" />
     <state x="2688" y="299" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614002696664" />
     <state x="768" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605966753344" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614171466320">
@@ -126,10 +127,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614171453362" />
-    <state x="666" y="253" width="668" height="534" key="find.popup" timestamp="1614255093349">
+    <state x="666" y="253" width="668" height="534" key="find.popup" timestamp="1614260598713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="253" width="668" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614255093349" />
+    <state x="666" y="253" width="668" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614260598713" />
     <state x="2586" y="253" width="668" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614177434055" />
     <state x="666" y="253" width="668" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605825765405" />
     <state x="940" y="270" key="search.everywhere.popup" timestamp="1614186740318">
